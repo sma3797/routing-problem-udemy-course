@@ -1,0 +1,31 @@
+.Toolbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+    /* box-sizing: border-box; */
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a.active {
+    background-color: rgb(7, 211, 143);
+}
